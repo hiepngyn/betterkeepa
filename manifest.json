@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Better Keepa",
+    "description": "Basic Extention to Make Keepa Better :)",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": "images/keepa.png"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+      ],
+    "background": {
+        "service_worker": "background.js"
+    }
+  }
